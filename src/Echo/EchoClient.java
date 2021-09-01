@@ -17,7 +17,6 @@ public class EchoClient {
 
 
             Scanner sc = new Scanner(System.in);
-
             while (true) {
                 toServer.writeUTF(sc.nextLine());
                 toServer.flush();
